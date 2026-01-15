@@ -1,0 +1,2 @@
+complaint_text,service_type,user_urgency,predicted_priority
+Gas smell detected in kitchen,gas,high,critical
