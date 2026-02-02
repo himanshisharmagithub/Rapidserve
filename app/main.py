@@ -4,12 +4,11 @@ from pydantic import BaseModel
 
 app = FastAPI()
 
-# ✅ CORS — THIS IS THE KEY FIX
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["http://localhost:5173"],
     allow_credentials=True,
-    allow_methods=["*"],   # allows OPTIONS + POST
+    allow_methods=["*"],
     allow_headers=["*"],
 )
 
