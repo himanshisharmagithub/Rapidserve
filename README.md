@@ -86,6 +86,3 @@ Full admin dashboard UI
 Database integration (PostgreSQL/MongoDB)
 Real-time tracking
 Deployment (AWS / Vercel)
-💡 Note
-
-This project is under active development. Current version focuses on backend logic, ML integration, and API functionality.
